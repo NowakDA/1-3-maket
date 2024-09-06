@@ -39,12 +39,10 @@ button {
 }
 
 a {
+  color: #7e7e82;
   text-decoration: none;
 }
 
-a:visited {
-  color: #7e7e82;
-}
 
 .header {
   height: 88px;
@@ -82,7 +80,7 @@ a:visited {
 }
 
 .right-menu__repair::before {
-  content: url(/img/divider.svg);
+  content: url(img/divider.svg);
 }
 
 .page {
@@ -217,7 +215,7 @@ button:hover {
   }
 
   .left-menu__logo::before {
-    content: url(/img/divider.svg);
+    content: url(img/divider.svg);
     height: 32px;
     box-sizing: border-box;
   }
